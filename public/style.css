@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root
+{
+    --gradient-one: linear-gradient(160deg, #fff 18%, #C1E8D4 1%, #C1E8D4 20%, #006B4A 1%,#006B4A 80%, #fff 20%);
+    --primary-color: #006B4A;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main
+{
+    height: 100vh;
+}
+
+/* Login Page*/
+.login_user
+{
+    background-image: var(--gradient-one);
+}
+
+.login_form
+{
+    display: flex;
+    height: auto;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.login_form_img
+{
+    width: 250px;
+    height: 240px;
+}
+
+.login_form_itens .card
+{
+    width: 22rem;
+    height: 18rem;
+}
+
+.card
+{
+    border-radius: 20px;
+}
+
+.login_form_title
+{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.login_forms
+{
+    width: 20rem;
+}
+
+.login_forms .form-control
+{
+    margin-bottom: 10px; 
+}
+
+div.card-body a
+{
+    margin-bottom: 20px;
+}
+
+.login_footer img
+{
+    height: auto;
+    width: 15rem;
+}
