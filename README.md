@@ -1,4 +1,4 @@
-# vue-ambassador
+# mock-app
 
 ## Project setup
 ```
